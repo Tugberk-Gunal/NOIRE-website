@@ -1,0 +1,22 @@
+.hero-section {
+      height: 100vh;
+      background: url('ErkekArkaPlanKKKKK.jpg') no-repeat center center/cover;
+      background-attachment: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      position: relative;
+      z-index: 1;
+    }
+
+    .cards-section {
+      min-height: 100vh;
+      background: url('arkaPlanOrtaKK.jpg') no-repeat center center/cover;
+      background-attachment: fixed; 
+      position: relative;
+      z-index: 2;   /* fotoğrafın üstünde görünmesi için */
+      padding: 90px 0;
+      
+      
+    }
